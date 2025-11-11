@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="segmented-switch" aria-label="Select login type">
+      <a class="seg-item" href="index.html">User</a>
+      <a class="seg-item active" href="admin-login.html">Admin</a>
+    </div>
+    <h1>Admin Login</h1>
+    <form id="adminLogin" action="">
+      <label for="adminUsername">Username <span class="required-star" aria-hidden="true">*</span></label>
+      <input type="text" id="adminUsername" name="username" required>
+      <label for="adminPassword">Password <span class="required-star" aria-hidden="true">*</span></label>
+      <input type="password" id="adminPassword" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p><a href="forgot-password.html">Forgot Password?</a></p>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
